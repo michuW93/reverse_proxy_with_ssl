@@ -1,6 +1,6 @@
 # reverse_proxy_with_ssl
 
-`mvn clean install` on both - prov and web (it will create .war file), deploy wars on tomcat
+`mvn clean install` on both - prov and web projects (it will create .war file), deploy wars on tomcat
 
 then install haproxy and run with `haproxy -f haproxy.cfg` command
 
